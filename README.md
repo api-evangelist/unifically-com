@@ -64,5 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-unifically-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://unifically.com/
+UnificAlly provides a unified AI API that aggregates over 120 video, image, audio, and text generation models, including Veo, Suno, Kling, GPT, Claude, and many others. Users can access these models via a single REST endpoint, paying per generation with no subscription or contracts. The platform offers high availability, pricing tiers, and a developer portal for API keys, documentation, and usage dashboards.
+
+**Areas:** Company · AI · API · Unified · Generation
+
+## unifically-com on APIs.io
+
+Everything profiled for unifically-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/unifically-com/](https://apis.io/providers/unifically-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Unified Tasks API](https://apis.io/apis/unifically-com/unified-tasks-api/) — Unified Tasks API provides a single endpoint /v1/tasks to create AI generation tasks across models.
+- [unifically-com API](https://apis.io/apis/unifically-com/unifically-com-api/) — unifically-com API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1ModelsResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-models-response/)
+- [GetV1ResourcesElevenlabsVoicesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-elevenlabs-voices-response/)
+- [GetV1ResourcesGoogleTtsLanguagesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-google-tts-languages-response/)
+- [GetV1ResourcesGoogleTtsVoicesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-google-tts-voices-response/)
+- [GetV1ResourcesGrokVoicesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-grok-voices-response/)
+- [GetV1TasksResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-tasks-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Unifically Com Context](https://apis.io/jsonld/unifically-com/unifically-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [unifically-com API Rules](https://apis.io/rules/unifically-com/unifically-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Unifically Com Authentication](https://apis.io/security/unifically-com/unifically-com-authentication/)
+- [Unifically Com Domain Security](https://apis.io/security/unifically-com/unifically-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://unifically.com/)
+- [Documentation](https://docs.unifically.com/)
+- [API reference](https://docs.unifically.com/api-reference/v1-tasks)
+- [Pricing](https://unifically.com/pricing)
+- [Terms of service](https://unifically.com/terms)
+- [Privacy policy](https://unifically.com/privacy)
+- [GitHub](https://github.com/unifically-dev)
+
+## API Evangelist rating
+
+**Kin Score 46.3** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 45.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/unifically-com/](https://apis.io/providers/unifically-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for unifically-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/unifically-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
