@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-UnificAlly provides a unified AI API that aggregates over 120 video, image, audio, and text generation models, including Veo, Suno, Kling, GPT, Claude, and many others. Users can access these models via a single REST endpoint, paying per generation with no subscription or contracts. The platform offers high availability, pricing tiers, and a developer portal for API keys, documentation, and usage dashboards.
+UnificAlly provides a unified AI API offering over 120 video, image, audio, and text models, including Veo 3.1, Kling, Suno, Nano Banana, Claude, and GPT. It delivers cost‑effective rates up to 85% lower than official pricing, targeting developers and enterprises seeking scalable media AI capabilities. The platform is based in Tbilisi, Georgia, and emphasizes easy integration via a single endpoint.
 
-**Areas:** Company · AI · API · Unified · Generation
+**Areas:** AI · Media · Machine-Learning · Startup · Platform
 
 ## unifically-com on APIs.io
 
@@ -74,8 +74,8 @@ Everything profiled for unifically-com is published on APIs.io rather than in th
 
 ### APIs (2)
 
-- [Unified Tasks API](https://apis.io/apis/unifically-com/unified-tasks-api/) — Unified Tasks API provides a single endpoint /v1/tasks to create AI generation tasks across models.
-- [unifically-com API](https://apis.io/apis/unifically-com/unifically-com-api/) — unifically-com API as documented publicly: 18 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own…
+- [Unified Tasks API](https://apis.io/apis/unifically-com/unified-tasks-api/) — Create and manage AI generation tasks with a unified interface.
+- [unifically-com API](https://apis.io/apis/unifically-com/unifically-com-api/) — unifically-com API as documented publicly: 21 operations. Contract generated from the documentation by API Evangelist (2026-10-31); not the provider's own…
 
 ### Published properties
 
@@ -85,11 +85,11 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 The data models the API reads and writes.
 
-- [GetV1ModelsResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-models-response/)
-- [GetV1ResourcesElevenlabsVoicesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-elevenlabs-voices-response/)
-- [GetV1ResourcesGoogleTtsLanguagesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-google-tts-languages-response/)
-- [GetV1ResourcesGoogleTtsVoicesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-google-tts-voices-response/)
+- [GetV1ChatCompletionsResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-chat-completions-response/)
+- [GetV1MessagesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-messages-response/)
+- [GetV1ModelsModelidResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-models-modelid-response/)
 - [GetV1ResourcesGrokVoicesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-resources-grok-voices-response/)
+- [GetV1ResponsesResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-responses-response/)
 - [GetV1TasksResponse](https://apis.io/schemas/unifically-com/unifically-com-get-v1-tasks-response/)
 
 #### JSON-LD (1)
@@ -111,32 +111,52 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Unifically Com Authentication](https://apis.io/security/unifically-com/unifically-com-authentication/)
 - [Unifically Com Domain Security](https://apis.io/security/unifically-com/unifically-com-domain-security/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Unifically Com Scopes](https://apis.io/scopes/unifically-com/unifically-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Unifically Com Plans Pricing](https://apis.io/plans/unifically-com/unifically-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Unifically Com Rate Limits](https://apis.io/rate-limits/unifically-com/unifically-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://unifically.com/)
-- [Documentation](https://docs.unifically.com/)
-- [API reference](https://docs.unifically.com/api-reference/v1-tasks)
+- [Documentation](https://docs.unifically.com/introduction)
+- [Getting started](https://docs.unifically.com/introduction)
+- [API reference](https://docs.unifically.com/introduction)
 - [Pricing](https://unifically.com/pricing)
+- [Support](https://unifically.com/contact)
 - [Terms of service](https://unifically.com/terms)
 - [Privacy policy](https://unifically.com/privacy)
-- [GitHub](https://github.com/unifically-dev)
+- [GitHub](https://github.com/unifically)
 
 ## API Evangelist rating
 
-**Kin Score 46.3** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 49.3** — developing · rubric 0.25.0 · scored 2026-10-31
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 57.6 |
+| Discoverability | 65.0 |
+| Contract quality | 45.6 |
 | Contract governance | 79.1 |
 | Operational transparency | 5.3 |
-| Developer ergonomics | 38.1 |
+| Developer ergonomics | 61.9 |
 | Access clarity | 31.6 |
 
-**Agent readiness 45.1** — agent-ready (gated down from agent-native)
+**Agent readiness 45.9** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -146,9 +166,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | verified |
-| Rate Limit Signal | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
@@ -159,10 +179,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
-| Pagination Ratio | — |
-| Operation Distinctiveness | distinct |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/unifically-com/](https://apis.io/providers/unifically-com/).
 
